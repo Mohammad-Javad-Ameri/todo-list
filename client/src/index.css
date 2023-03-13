@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f7fd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c8c9d9;
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+ 
+}
+
+.App h1 {
+  text-align: center;
+  color: #67697c;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus {
+  outline: none;
+}
+
+.form button[type="submit"] {
+  background-color: #5078fb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer
+}
+
+.todo-listItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  padding: 0px 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.item-content {
+  width: 60%;
+}
+
+.todo-item button {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 8px
+}
+
+.todo-item button:focus {
+  outline: none
+}
+
+.update-item {
+  background-color: rgb(255, 193, 37);
+  color: #fff;
+}
+
+.delete-item {
+  background-color: red;
+  color: #fff;
+}
+
+.update-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.update-new-input {
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  padding: 8px;
+  outline: none;
+}
+
+.update-new-btn {
+  background-color: darkorchid;
+  color: #fff;
+  cursor: pointer;
+}
